@@ -1,1 +1,2 @@
-# Libary
+This a an applications that serves a vitual libary to store both books u've read and the ones u've not read.
+stores the books u wants to store all u need to do is fill the the from the add book button and then submit

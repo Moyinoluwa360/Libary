@@ -8,7 +8,7 @@ body{
     font-style: italic;
     font-size: 45px;
     padding-top: 30px;
-    box-shadow: 0px 2px 8px black;
+    box-shadow: 0px 2px 3px black;
 }
 .addContainer{
     display: flex;
@@ -32,7 +32,7 @@ form .input{
     height: 35px;
     width: 250px;
     border-radius: 10px;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(238, 238, 238);
     margin-bottom: 15px;
     padding-left: 15px;
 }
@@ -61,4 +61,11 @@ form label{
 }
 dialog{
     border-radius: 15px;
+}
+.booksLibary{
+    width: 1500px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    gap: 20px;
 }
